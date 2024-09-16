@@ -27,7 +27,7 @@ if (app.Environment.IsDevelopment())
 
 //app.UseHttpsRedirection();
 
-app.MapPost("/ie-endpoint", () =>
+app.MapPost("/ie/integracoes/wms/contagem-finalizada", () =>
 {
     return Results.Ok("Integration OK");
 }).AllowAnonymous()
